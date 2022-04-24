@@ -9,8 +9,6 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import static org.junit.Assert.*;
-
 @RunWith(SpringRunner.class) //스프링과 관련된 것을 테스트할 것임을 JUnit에게 알려줌
 @SpringBootTest
 public class MemberRepositoryTest {
